@@ -1,0 +1,19 @@
+{
+  "name": "trashnet",
+  "version": "1.0.0",
+  "description": "Nodejs based botnet FOR EDUCATIONAL PURPOSES ONLY",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lord-Squirrel/trashnet.git"
+  },
+  "author": "Lord Squirrel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lord-Squirrel/trashnet/issues"
+  },
+  "homepage": "https://github.com/Lord-Squirrel/trashnet#readme"
+}
