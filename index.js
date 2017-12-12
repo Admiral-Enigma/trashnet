@@ -25,6 +25,11 @@ net.createServer(function(sock) {
         console.log('CLOSED: ' + sock.remoteAddress +' '+ sock.remotePort);
     });
 
+    sock.on("error", (err) => {
+      console.log("Caught flash policy server socket error: ")
+      console.log(err)
+    })
+
 }).listen(PORT, HOST);
 
 console.log('Server listening on ' + HOST +':'+ PORT);
